@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Patrick+Hand+SC&family=Playwrite+PL:wght@100..400&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bacgos.jpg'); /* Path ke gambar latar belakang */
+    background-size: cover; /* Membuat gambar menutupi seluruh latar belakang */
+    background-position: center; /* Memposisikan gambar di tengah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: rgba(255, 255, 255, 0.8);;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #1565c0;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 16px;
+    color: #1565c0;
+    font-weight: 600;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #1565c0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
+
+.quote-container {
+    margin-top: 20px;
+}
+
+.quote-box {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
